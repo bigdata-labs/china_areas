@@ -1,0 +1,12 @@
+{
+  "name": "china_areas",
+  "version": "1.0.0",
+  "description": "Json data of China administrative regions",
+  "main": "areas.json",
+  "scripts": {
+    "build": "json-minify areas.json > ./areas-min.json"
+  },
+  "keywords": ["China", "areas"],
+  "author": "FENG Zhichao",
+  "license": "MIT"
+}
